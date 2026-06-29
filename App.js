@@ -2,12 +2,12 @@ import React from 'react'
 import { StyleSheet, ScrollView } from 'react-native'
 import Time from './componentes/Time'
 import Spring from './componentes/Spring'
+import AnimatedEjercicio from './componentes/AnimatedEjercicio'
 
 export default function App() {
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
-      <Time />
-      <Spring />
+      <AnimatedEjercicio />
     </ScrollView>
   )
 }
